@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-from curses.ascii import isdigit
 while True:
     a = input('Введите количество баллов: ')
     if a.isdigit():
